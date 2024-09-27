@@ -1,0 +1,57 @@
+
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: .938rem;
+}
+
+.banner-image {
+  height: 25rem;
+  width: 66%;
+  max-width: 62.5rem;
+  border-radius: .6rem;
+}
+
+.landing-outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-coffee-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.landing-coffee-container a{
+  text-decoration: none;
+  color: black
+}
+
+.landing-page-coffee-image {
+  width: 20rem;
+  border-radius: .6rem;
+
+}
+
+.coffee-card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee-card-link p{
+  margin: .2rem;
+}
+
+.coffee-card-link {
+  transition: transform .2s ease-in-out;
+}
+
+.coffee-card-link:hover {
+  background-color: #b6b19c;
+  
+  border-radius: .6rem;
+  transform: scale(1.05);
+}

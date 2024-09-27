@@ -1,0 +1,136 @@
+.profile-dropdown {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}
+
+.nav-bar-the-real-bar{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #ccc solid;
+  margin: auto;
+}
+
+.nav-bar-left-side{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.nav-bar-right-side > * {
+  display: flex;
+  margin: 5px;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-bar-right-side {
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav-bar-icon{
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.no-bullets-li{
+  list-style: none;
+}
+
+.no-text-style{
+  text-decoration: none;
+  color: black;
+}
+
+.user-drop-down{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin-top: 1px;
+  z-index: 100;
+  right: 40px;
+  top: 20px;
+  background-color: white;
+  gap:7px;
+  width: fit-content;
+  min-width: 120px;
+}
+
+.nav-bar-profile-button {
+  border: none;
+  background-color: #f2eedc;
+  cursor: pointer;
+}
+
+.nav-bar-search-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.nav-bar-search-input,
+.nav-bar-search-icon {
+  height: 40%;
+}
+
+.nav-bar-search-input {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nav-bar-search-icon {
+  background-color: white;
+  border: none;
+  position: relative;
+  z-index: 1;
+  right: 33px;
+  cursor: pointer;
+}
+
+.nav-bar-icons {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav-bar-new-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.nav-bar-new-img-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:5px;
+}
+
+.profile-drop-down-logout {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.profile-drop-down-login-signup li{
+  cursor: pointer;
+}
+
+.profile-drop-down-login-signup {
+  right: 10px;
+}
+
+
+
+
+

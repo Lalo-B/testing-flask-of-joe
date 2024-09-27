@@ -1,0 +1,53 @@
+.errors {
+  color: red
+}
+
+.form-outer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin-top: 1.563rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div {
+  margin: 0;
+}
+
+.form-beans {
+  color: #1b0000
+}
+
+.form-div textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 5rem;
+}
+
+.form-div p {
+  height: 1.2224rem;
+}
+
+.inner-picture-div {
+  display: flex;
+}
+
+.picture-container {
+  height: 5rem;
+  padding-left: 1.5rem;
+}
+
+.form-image-container {
+  height: 5rem;
+}
